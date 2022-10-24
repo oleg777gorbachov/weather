@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header {
+  border: 1px solid white;
+  background: rgba(255, 45, 255, 0.8);
+  padding: 40px;
+  border-radius: 6px;
+  max-width: 80%;
+}
+
+.info {
+  margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 16px;
+  padding: 6px 20px;
+  background-color: transparent;
+}
+
+p {
+  word-break: break-all;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.separator {
+  width: 4px;
+  height: 32px;
+  border-radius: 4px;
+  background-color: rgba(255, 58, 255, 0.8);
+}
+
+.api {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+em {
+  color: rgb(238, 255, 0);
+}
+
+.last-update {
+  font-size: 16px;
+}
+
+.error {
+  font-weight: 800;
+  color: rgb(95, 14, 34);
+}
